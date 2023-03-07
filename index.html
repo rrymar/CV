@@ -8,6 +8,7 @@
     <script type="module" src="./components/summary.js"></script>
     <script type="module" src="./components/hard-skills.js"></script>
     <script type="module" src="./components/soft-skills.js"></script>
+    <script type="module" src="./components/project.js"></script>
 </head>
 <body>
 <div class="page-container">
@@ -28,6 +29,17 @@
     <hr/>
     <app-soft-skills></app-soft-skills>
     <hr/>
+    <h2>MAIN PROJECTS</h2>
+    <app-project>
+        <span slot="name">Chief Architect</span>
+        <span slot="description">Chief Architect of company</span>
+        <span slot="customer">Proxet</span>
+        <span slot="period">April 2018 – till now</span>
+        <span slot="role">Chief Architect</span>
+        <span slot="responsibilities">Presales preparation, Architecture prototyping, 
+            Project bootstrapping, Project Estimation, 
+            Architecture Review, Legacy system assessments</span>
+    </app-project>
     <app-summary></app-summary>
     <app-summary></app-summary>
 </div>
