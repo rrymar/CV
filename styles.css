@@ -1,5 +1,5 @@
 ﻿img {
-    width: 25vw;
+    width: 15vw;
     margin: 1.34em;
 }
 
@@ -19,7 +19,7 @@ body {
 .header-container {
     display: grid;
     grid-template-columns: 1fr repeat(2, 2fr);
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 0.70fr 1.30fr;
     grid-gap: 1em;
 }
 
@@ -36,5 +36,17 @@ body {
 }
 
 .contacts div {
-    padding: 0.2em;
+    padding: 0.3em;
+}
+
+.contacts a {
+    text-decoration: none;
+    color: black;
+}
+
+.contacts a:hover {
+    text-decoration: underline;
+}
+.contacts a:visited {
+    color: black;
 }
