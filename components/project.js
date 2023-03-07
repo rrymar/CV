@@ -22,6 +22,7 @@
                 border: lightgray solid 0.01em;
             }
             
+            
         </style>
         <div class="grid">
             <div>Project</div>

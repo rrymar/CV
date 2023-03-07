@@ -6,6 +6,7 @@
 body {
     background-color: #f8f8f8;
     font-family: "Segoe UI", Verdana, sans-serif, "Courier New";
+    print-color-adjust: exact;
 }
 
 .page-container {
@@ -42,9 +43,25 @@ app-contacts {
     .header-container {
         grid-template-columns: repeat(auto-fit, 38vw);
     }
-    
+
     img {
         width: 30vw;
     }
+}
 
+@media print {
+    body {
+        -webkit-print-color-adjust: exact;
+    }
+
+    .page-container {
+        width: auto;
+        margin: 0;
+        padding: 0;
+        box-shadow: 0 0 0;
+    }
+    
+    hr {
+        display: none;
+    }
 }

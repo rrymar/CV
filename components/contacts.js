@@ -19,6 +19,18 @@
             .contacts a:visited {
                 color: black;
             }
+            .linkedin-text {
+                    display: none;
+            }
+            @media print {
+                .linkedin-link {
+                    display: none;
+                }
+                .linkedin-text {
+                    display: inline;
+                    white-space: nowrap;
+                }
+            }
         </style>
         <div class="contacts">
             <div><b>Contacts: </b></div>
@@ -34,10 +46,13 @@
             <div>
                 <a href="https://github.com/rrymar" target="_blank">github.com/rrymar</a>
             </div>
-            <div>
+            <div class="linkedin-link">
                 <a href="https://www.linkedin.com/in/ruslan-rymar-6b662046" target="_blank">
                     open linkedin profile
                 </a>
+            </div>
+            <div class="linkedin-text">
+                www.linkedin.com/in/ruslan-rymar-6b662046
             </div>
         </div>`;
     }
