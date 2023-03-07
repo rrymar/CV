@@ -6,6 +6,7 @@
 body {
     background-color: #f8f8f8;
     font-family: monospace, "Courier New", Verdana, sans-serif;
+    font-size: small;
 }
 
 .page-container {
@@ -36,7 +37,7 @@ app-contacts {
     }
 
     .header-container {
-        grid-template-columns: repeat(auto-fit, 35vw);
+        grid-template-columns: repeat(auto-fit, 38vw);
     }
     
     img {
