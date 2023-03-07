@@ -9,6 +9,7 @@
     <script type="module" src="./components/hard-skills.js"></script>
     <script type="module" src="./components/soft-skills.js"></script>
     <script type="module" src="./components/project.js"></script>
+    <script type="module" src="./components/certifications.js"></script>
 </head>
 <body>
 <div class="page-container">
@@ -29,17 +30,102 @@
     <hr/>
     <app-soft-skills></app-soft-skills>
     <hr/>
-    <h2>MAIN PROJECTS</h2>
+    <h2>MAJOR PROJECTS</h2>
     <app-project>
         <span slot="name">Chief Architect</span>
         <span slot="description">Chief Architect of company</span>
         <span slot="customer">Proxet</span>
         <span slot="period">April 2018 – till now</span>
+        <span slot="technologies">.NET, Java, Python, Javascript</span>
         <span slot="role">Chief Architect</span>
-        <span slot="responsibilities">Presales preparation, Architecture prototyping, 
+        <span slot="responsibilities">
+            Presales preparation, Architecture prototyping, 
             Project bootstrapping, Project Estimation, 
-            Architecture Review, Legacy system assessments</span>
+            Architecture Review, Legacy system assessments
+        </span>
     </app-project>
+    <app-project>
+        <span slot="name">Video Advertising Streaming Platform</span>
+        <span slot="description">
+            Advertising Assets and Campaigns Management software for retail business
+        </span>
+        <span slot="customer">Cooler Screens via Proxet</span>
+        <span slot="period">Aug 2019 – Dec 2019</span>
+        <span slot="technologies">.Net Core, C#, Azure, Angular</span>
+        <span slot="role">Engineering Manager</span>
+        <span slot="responsibilities">
+            Bootstrap team, Prepare Architecture, Team leading, 
+            Project Management Deliver MVP in 45 days.
+        </span>
+    </app-project>
+    <app-project>
+        <span slot="name">Insight 4.0</span>
+        <span slot="description">
+            New generation of Medical Research Management Administration
+        </span>
+        <span slot="customer">Mass General Brigham via Proxet</span>
+        <span slot="period">April 2016 – till now</span>
+        <span slot="technologies">.NET 6, C#, MS SQL, ReactJS, Azure, Okta</span>
+        <span slot="role">Software Architect, Project Manager</span>
+        <span slot="responsibilities">
+            Development process definition, Architecture definition and documentation,
+            Project planning, People Management, Technical Decision Making
+        </span>
+    </app-project>
+    <app-project>
+        <span slot="name">Electronic Bank Account Management</span>
+        <span slot="description">
+            Electronic Bank Account Management for Enterprise clients
+        </span>
+        <span slot="customer">Citibank via Luxoft</span>
+        <span slot="period">July 2013 – March 2016</span>
+        <span slot="technologies">
+            Java, Spring, Hibernate, IBM WebSphere, IBM BPM, Oracle, Adobe LiveCycle
+            C#, Asp.Net MVC, Angular JS
+        </span>
+        <span slot="role">Development Manager, Software Architect</span>
+        <span slot="responsibilities">
+            Development process definition, Architecture definition and documentation, 
+            Coaching team members, 
+            Coordination of several teams: Java, .Net, BPM development. Architecture review. 
+        </span>
+    </app-project>
+    <app-project>
+        <span slot="name">Blogs Analysis</span>
+        <span slot="description">
+            Analytic system used to analyse and monitor social networks and blogs.
+            It gathers and analyses information from provider-based sources. Like Twitter, Facebook, etc.
+        </span>
+        <span slot="customer">Luxoft</span>
+        <span slot="period">November 2010 – April 2013</span>
+        <span slot="technologies">
+            .NET, MS SQL, MEF, MVC, WCF, Sphinx Search Server
+        </span>
+        <span slot="role">Team Lead</span>
+        <span slot="responsibilities">
+            Team Leading, Architecture development, High load optimizations
+        </span>
+    </app-project>
+    <app-project>
+        <span slot="name">Sana Commerce Framework</span>
+        <span slot="description">
+            Framework for web shops creating based on 2 providers - SQL and MS Navision. 
+            Supports B2B, B2C and hybrid shop scenarios. 
+            In addition to framework also contains web shop and back-office which is used by partners as a start point or like product from a box.
+            http://www.sana-commerce.com/
+        </span>
+        <span slot="customer">ISM eCompany</span>
+        <span slot="period">November 2007 - November 2010</span>
+        <span slot="technologies">
+            .NET, Asp.Net, WCF, Ajax, MS Dynamics Navision
+        </span>
+        <span slot="role">Lead developer, Team Lead</span>
+        <span slot="responsibilities">
+            Client web, server-side, framework development
+        </span>
+    </app-project>
+    <hr/>
+    <app-certifications></app-certifications>
     <app-summary></app-summary>
     <app-summary></app-summary>
 </div>

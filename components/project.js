@@ -9,10 +9,12 @@
                 display: grid;
                 grid-template-columns: 1fr 3fr;
                 grid-gap: 0.2em;
+                padding: 1em;
             }
             
             .grid div:first-child, .grid div:nth-child(2) {
                 background-color: #E8E8E8;
+                font-weight: bold;
             }
             
             .grid div {
@@ -30,6 +32,8 @@
             <div><slot name="customer"></slot></div>
             <div>Period</div>
             <div><slot name="period"></slot></div>
+            <div>Technologies</div>
+            <div><slot name="technologies"></slot></div>
             <div>Role</div>
             <div><slot name="role"></slot></div>
             <div>Responsibilities</div>
