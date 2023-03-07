@@ -20,7 +20,7 @@
                 color: black;
             }
         </style>
-        <div class="grid-item contacts">
+        <div class="contacts">
             <div><b>Contacts: </b></div>
             <div>
                 <a href="mailto:rrymar@outlook.com">rrymar@outlook.com</a>

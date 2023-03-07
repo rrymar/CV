@@ -4,8 +4,10 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>RUSLAN RYMAR - Software Architect</title>
     <link rel="stylesheet" type="text/css" href="./styles.css">
-    <script type="module" src="./contacts.js"></script>
-    <script type="module" src="./summary.js"></script>
+    <script type="module" src="./components/contacts.js"></script>
+    <script type="module" src="./components/summary.js"></script>
+    <script type="module" src="./components/hard-skills.js"></script>
+    <script type="module" src="./components/soft-skills.js"></script>
 </head>
 <body>
 <div class="page-container">
@@ -19,8 +21,15 @@
         </div>
         <app-contacts class="grid-item"></app-contacts>
     </div>
+    <hr/>
     <app-summary></app-summary>
-    
+    <hr/>
+    <app-hard-skills></app-hard-skills>
+    <hr/>
+    <app-soft-skills></app-soft-skills>
+    <hr/>
+    <app-summary></app-summary>
+    <app-summary></app-summary>
 </div>
 </body>
 </html>

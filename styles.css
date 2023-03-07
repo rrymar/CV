@@ -5,7 +5,7 @@
 
 body {
     background-color: #f8f8f8;
-    font-family: "Courier New", Verdana, sans-serif;
+    font-family: monospace, "Courier New", Verdana, sans-serif;
 }
 
 .page-container {
@@ -18,7 +18,7 @@ body {
 
 .header-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, 25vw);
+    grid-template-columns: repeat(auto-fit, 24vw);
     grid-gap: 1em;
 }
 
@@ -31,7 +31,16 @@ app-contacts {
 }
 
 @media screen and (max-width: 500px) {
-    .page-container{
+    .page-container {
         width: auto;
     }
+
+    .header-container {
+        grid-template-columns: repeat(auto-fit, 35vw);
+    }
+    
+    img {
+        width: 30vw;
+    }
+
 }

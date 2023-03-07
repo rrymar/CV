@@ -5,10 +5,11 @@
         this.attachShadow({ mode: "open" });
         this.shadowRoot.innerHTML = `
         <style>
-            summary {
-                padding: 1em;
+            h2 {
+                 text-transform: uppercase;
             }
         </style>
+        <h2>Summary</h2>
         <summary>
             <p>
                 Highly skilled and experienced software architect 
