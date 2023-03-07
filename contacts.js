@@ -11,6 +11,7 @@
             a {
                 text-decoration: none;
                 color: black;
+                white-space: nowrap;
             }
             a:hover {
                 text-decoration: underline;

@@ -13,17 +13,12 @@ body {
     margin: 3em auto;
     padding: 2em;
     background-color: #fff;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
-    .page-container {
-        width: 90vw;
-    }
-}
 .header-container {
     display: grid;
-    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-columns: repeat(auto-fit, 25vw);
     grid-gap: 1em;
 }
 
@@ -33,4 +28,10 @@ body {
 
 app-contacts {
     margin: 1.34em;
+}
+
+@media screen and (max-width: 500px) {
+    .page-container{
+        width: auto;
+    }
 }
