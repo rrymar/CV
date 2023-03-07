@@ -6,7 +6,6 @@
 body {
     background-color: #f8f8f8;
     font-family: "Segoe UI", Verdana, sans-serif, "Courier New";
-    font-size: small;
 }
 
 .page-container {
@@ -29,6 +28,10 @@ body {
 
 app-contacts {
     margin: 1.34em;
+}
+
+.page-break {
+    break-after: page;
 }
 
 @media screen and (max-width: 500px) {

@@ -10,6 +10,7 @@
     <script type="module" src="./components/soft-skills.js"></script>
     <script type="module" src="./components/project.js"></script>
     <script type="module" src="./components/certifications.js"></script>
+    <script type="module" src="./components/education.js"></script>
 </head>
 <body>
 <div class="page-container">
@@ -29,7 +30,7 @@
     <app-hard-skills></app-hard-skills>
     <hr/>
     <app-soft-skills></app-soft-skills>
-    <hr/>
+    <hr class="page-break"/>
     <h2>MAJOR PROJECTS</h2>
     <app-project>
         <span slot="name">Chief Architect</span>
@@ -90,6 +91,7 @@
             Coordination of several teams: Java, .Net, BPM development. Architecture review. 
         </span>
     </app-project>
+    <div class="page-break"></div>
     <app-project>
         <span slot="name">Blogs Analysis</span>
         <span slot="description">
@@ -126,8 +128,8 @@
     </app-project>
     <hr/>
     <app-certifications></app-certifications>
-    <app-summary></app-summary>
-    <app-summary></app-summary>
+    <hr/>
+    <app-education></app-education>
 </div>
 </body>
 </html>

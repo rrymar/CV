@@ -12,11 +12,6 @@ class Certifications extends HTMLElement {
                 padding: 1em;
             }
             
-            .grid div:first-child, .grid div:nth-child(2) {
-                background-color: #E8E8E8;
-                font-weight: bold;
-            }
-            
             .grid div {
                 padding: 0.2em;
                 border: lightgray solid 0.01em;
