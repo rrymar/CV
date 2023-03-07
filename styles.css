@@ -1,0 +1,40 @@
+﻿img {
+    width: 25vw;
+    margin: 1.34em;
+}
+
+body {
+    background-color: #f8f8f8;
+    font-family: "Courier New", Verdana, sans-serif;
+}
+
+.page-container {
+    width: 80vw;
+    margin: 3em auto;
+    padding: 2em;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.header-container {
+    display: grid;
+    grid-template-columns: 1fr repeat(2, 2fr);
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 1em;
+}
+
+.header-container h2 {
+    color: #606060;
+}
+
+.grid-item:first-child {
+    grid-row: 1 / span 2;
+}
+
+.grid-item:nth-child(2){
+    grid-column: 2 / span 2;
+}
+
+.contacts div {
+    padding: 0.2em;
+}
