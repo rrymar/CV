@@ -35,6 +35,10 @@ app-contacts {
     break-after: page;
 }
 
+.projects-title {
+    padding-top: 1em;
+}
+
 @media screen and (max-width: 500px) {
     .page-container {
         width: auto;
@@ -63,5 +67,10 @@ app-contacts {
     
     hr {
         display: none;
+    }
+    
+    .header-container h1,
+    .header-container h2 {
+        text-align: center;
     }
 }
