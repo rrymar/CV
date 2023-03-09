@@ -16,15 +16,14 @@ jobs:
       - name: Checkout to the branch
         uses: actions/checkout@v2
         
-      - name: GCP Auth
-        uses: google-github-actions/auth@v1
-        with:
-          credentials_json: ${{ secrets.GKE_SA_KEY }}
+#      - name: GCP Auth
+#        uses: google-github-actions/auth@v1
+#        with:
+#          credentials_json: ${{ secrets.GKE_SA_KEY }}
 
-      - name: 'upload-files'
-        uses: 'google-github-actions/upload-cloud-storage@v1'
+      - name: Sync
+        uses: patrickwyler/gcs-bucket-sync-action@1.3
         with:
-          path: './'
-          destination: 'cv.rymar.work'
-          parent: false
-          glob: '**/*.txt'
+          secrets: ${{ secrets.GKE_SA_KEY }}
+          bucket: 'cv.rymar.work'
+          exclude: '.*\.md$|\.gitignore$|\.git/.*$|\.github/.*$'
