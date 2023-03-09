@@ -47,12 +47,12 @@
                 <a href="https://github.com/rrymar" target="_blank">github.com/rrymar</a>
             </div>
             <div class="linkedin-link">
-                <a href="https://www.linkedin.com/in/ruslan-rymar-6b662046" target="_blank">
+                <a href="https://www.linkedin.com/in/ruslan-rymar" target="_blank">
                     open linkedin profile
                 </a>
             </div>
             <div class="linkedin-text">
-                www.linkedin.com/in/ruslan-rymar-6b662046
+                www.linkedin.com/in/ruslan-rymar
             </div>
         </div>`;
     }
