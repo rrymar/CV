@@ -1,12 +1,9 @@
 name: Deploy to Google Storage
 
 on:
-  workflow_dispatch:      
-
-env:
-  GKE_CLUSTER: main-cluster
-  GKE_ZONE: europe-central2-a   
-  DEPLOYMENT_NAME: rss 
+  push:
+    branches:
+      - main 
 
 jobs:
   Deploy:
@@ -15,11 +12,6 @@ jobs:
     steps:
       - name: Checkout to the branch
         uses: actions/checkout@v2
-        
-#      - name: GCP Auth
-#        uses: google-github-actions/auth@v1
-#        with:
-#          credentials_json: ${{ secrets.GKE_SA_KEY }}
 
       - name: Sync
         uses: patrickwyler/gcs-bucket-sync-action@1.3
