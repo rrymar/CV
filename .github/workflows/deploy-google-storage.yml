@@ -1,4 +1,4 @@
-name: Deploy to GKE
+name: Deploy to Google Storage
 
 on:
   workflow_dispatch:      
@@ -9,7 +9,7 @@ env:
   DEPLOYMENT_NAME: rss 
 
 jobs:
-  BuildAndDeploy:
+  Deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -26,4 +26,5 @@ jobs:
         with:
           path: './'
           destination: 'cv.rymar.work'
-          parent: false   
+          parent: false
+          glob: '**/*.txt'
