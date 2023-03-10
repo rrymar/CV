@@ -17,6 +17,12 @@ class Certifications extends HTMLElement {
                 border: lightgray solid 0.01em;
             }
             
+            @media screen and (max-width: 500px) {
+                .grid {
+                    padding: 0.2em;
+                }
+            }
+            
         </style>
         <h2>CERTIFICATIONS AND TRAININGS</h2>
         <div class="grid">

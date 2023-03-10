@@ -24,6 +24,12 @@
                 border: lightgray solid 0.01em;
             }
             
+            @media screen and (max-width: 500px) {
+                .grid {
+                    padding: 0.2em;
+                }
+            }
+            
         </style>
         <h2>EDUCATION</h2>
         <div class="grid">
