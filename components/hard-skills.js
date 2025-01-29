@@ -15,17 +15,14 @@
         </style>
         <h2>Hard Skills</h2>
         <div class="list">
-            <div>.NET, .NET Core, Java, JavaScript, TypeScript</div>
-            <div>Asp.Net, Entity Framework, Asp.Net Web Forms, Asp.Net MVC</div>
-            <div>Azure, GCP, Docker, Kubernetes</div>
-            <div>SaaS, PaaS, IaaS</div>
-            <div>Azure SQL, Azure App Services, Azure Container Apps, Azure Cosmos DB</div>
+            <div>.NET 4, .NET 8, Java, JavaScript, TypeScript</div>
+            <div>Azure, GCP, AWS, Docker, Kubernetes</div>
             <div>MS SQL, PostgreSQL, Oracle</div>
-            <div>Google Cloud Run, Google Kubernetes Engine, Firebase</div>
             <div>React, Angular, RxJS</div>
-            <div>Azure DevOps, GitHub, TeamCity</div>
+            <div>Azure DevOps, Jira, GitHub, TeamCity</div>
+            <div>Bicep, Terraform, CloudFormation</div>
             <div>Veracode, SonarQube</div>
-        </div>`;
+        </div>`
     }
 }
 

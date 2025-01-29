@@ -13,7 +13,7 @@ class Certifications extends HTMLElement {
             }
             
             .grid div {
-                padding: 0.2em;
+                padding: 0.5em;
                 border: lightgray solid 0.01em;
             }
             

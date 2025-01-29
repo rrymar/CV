@@ -22,14 +22,11 @@
             <div>Project Management 30+ FTE</div>
             <div>Cross team’s communication</div>
             <div>Technical Design and Documentation</div>
-            <div>Agile, Scrum, Waterfall, Kanban</div>
             <div>Architecture Definition</div>
-            <div>Negotiations, Decision Making</div>
             <div>Presales & Estimations</div>
             <div>Architecture Review</div>
             <div>Requirement Gathering</div>
             <div>Security Review</div>
-            <div></div>
         </div>`;
     }
 }
